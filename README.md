@@ -1,4 +1,4 @@
-A fake website promoting a plant delivery brand and app.
+A fake website promoting a fake plant delivery brand and app.
 
 - Landing Page
 - Features
