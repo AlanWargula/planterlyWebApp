@@ -1,0 +1,266 @@
+/* GLOBAL */
+
+body {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+}
+
+.container-fluid {
+  padding: 3% 15%;
+}
+
+.btn {
+  background-color: #012326;
+  color: #D0D8D9;
+  border: none;
+  border-radius: 10px;
+}
+
+.btn:hover {
+  background-image: url(images/price1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* NAVIGATION BAR */
+
+
+#logo {
+  font-weight: 400;
+  size: 3rem;
+  line-height: 1.5;
+  color: #012326;
+}
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+#logo {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 4rem;
+  font-weight: bold;
+}
+
+.nav-btn {
+  font-size: 1.75rem;
+  font-weight: 300;
+  padding: 0 10px;
+  color: #012326;
+}
+
+.nav-btn:hover{
+  border-bottom: solid #012326;
+}
+
+/* LANDING PAGE */
+
+#title {
+  background-image: url(images/back.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #012326;
+  width: 100%;
+  height: 100vh;
+  text-align: left;
+}
+
+.download-button {
+  margin: 5% 3%;
+}
+
+/* TITLE IMAGE */
+
+.phone {
+  transform: rotate(10deg);
+  width: 120%;
+  position: absolute;
+}
+
+
+/* FEATURES */
+
+#features {
+  padding: 7% 15%;
+  background-color: rgba(255, 255, 255, 0.95);
+  position: relative;
+}
+
+.feature-icon {
+  color: #035941;
+  font-size: 3rem;
+  margin: 15px;
+}
+
+.feature-icon:hover {
+  color: #014034;
+  transform: scale(1.1);
+}
+
+#features h3 {
+  size: 1.5rem;
+  font-weight: bold;
+}
+
+#features p {
+  color: #012326;
+}
+
+/* <!-- Testimonials--> */
+
+#testimonials {
+  background-color: #D0D8D9;
+  color: #012326;
+}
+
+.testimonial-text {
+  font-size: 2rem;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+.profile-img {
+  width: 20%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.press-img {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 20px;
+  width: 20px;
+  filter: invert(100%);
+}
+
+/* PRICING */
+
+#pricing {
+  background-image: url(images/price1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 100px;
+}
+
+.price-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 400;
+  color: white;
+  background-color: rgb(1, 35, 38, 0.85);
+  border-radius: 10px;
+
+}
+
+.price-cat {
+  margin: 0;
+}
+
+.price-cost {
+  font-size: 2.5rem;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+.price-col {
+  padding: 3% 2%;
+}
+
+.card {
+  border-radius: 10px;
+}
+.card-body {
+  height: 325px;
+}
+
+
+
+/* CTA */
+
+#cta {
+  background-image:
+  linear-gradient(to bottom, rgba(255, 255, 255, 0.74), rgba(255, 255, 255, 0)),
+  url(images/foot.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 5% 15%;
+}
+
+.cta-title {
+  color: #012326;
+  size: 1.5rem;
+  font-weight: bold;
+  padding: 10% auto 0;
+}
+
+
+/* PRESS */
+#press {
+  padding-bottom: 3%;
+}
+
+
+/* FOOTER */
+
+#footer {
+  margin: 5%;
+}
+
+.foot-icon {
+  font-size: 2rem;
+  padding: 2%;
+  color: #012326;
+}
+
+.foot-icon:hover {
+  color: #014034;
+}
+
+
+ /* RESPONSIVE */
+
+@media (max-width: 1028px) { 
+
+  .intro {
+    font-size: 2rem;
+  }
+
+  .phone {
+    transform: rotate(0deg);
+    width: 1%;
+    position: absolute;
+  }
+
+  .download-button {
+    margin: 5% 25%;
+  }
+
+  .testimonial-text {
+    font-size: 1.5rem;
+  }
+
+  .price-heading {
+    font-size: 1.5rem;
+    line-height: 1.5;
+    font-weight: 400;
+  }
+
+  .card {
+  height: 70vh;
+  }
+
+
+  
+}
